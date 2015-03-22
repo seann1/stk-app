@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1472E2431ABE6834008CD135 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1472E2421ABE6834008CD135 /* main.m */; };
+		1472E2461ABE6834008CD135 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1472E2451ABE6834008CD135 /* AppDelegate.m */; };
+		1472E2491ABE6834008CD135 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1472E2481ABE6834008CD135 /* ViewController.m */; };
+		1472E24C1ABE6834008CD135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1472E24A1ABE6834008CD135 /* Main.storyboard */; };
+		1472E24E1ABE6834008CD135 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1472E24D1ABE6834008CD135 /* Images.xcassets */; };
+		1472E2511ABE6834008CD135 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1472E24F1ABE6834008CD135 /* LaunchScreen.xib */; };
+		1472E25D1ABE6834008CD135 /* MandolinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1472E25C1ABE6834008CD135 /* MandolinTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1472E2571ABE6834008CD135 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1472E2351ABE6833008CD135 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1472E23C1ABE6834008CD135;
+			remoteInfo = Mandolin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1472E23D1ABE6834008CD135 /* Mandolin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mandolin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1472E2411ABE6834008CD135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1472E2421ABE6834008CD135 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1472E2441ABE6834008CD135 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1472E2451ABE6834008CD135 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1472E2471ABE6834008CD135 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1472E2481ABE6834008CD135 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1472E24B1ABE6834008CD135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1472E24D1ABE6834008CD135 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1472E2501ABE6834008CD135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1472E2561ABE6834008CD135 /* MandolinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MandolinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1472E25B1ABE6834008CD135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1472E25C1ABE6834008CD135 /* MandolinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MandolinTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1472E23A1ABE6834008CD135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1472E2531ABE6834008CD135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1472E2341ABE6833008CD135 = {
+			isa = PBXGroup;
+			children = (
+				1472E23F1ABE6834008CD135 /* Mandolin */,
+				1472E2591ABE6834008CD135 /* MandolinTests */,
+				1472E23E1ABE6834008CD135 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1472E23E1ABE6834008CD135 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1472E23D1ABE6834008CD135 /* Mandolin.app */,
+				1472E2561ABE6834008CD135 /* MandolinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1472E23F1ABE6834008CD135 /* Mandolin */ = {
+			isa = PBXGroup;
+			children = (
+				1472E2441ABE6834008CD135 /* AppDelegate.h */,
+				1472E2451ABE6834008CD135 /* AppDelegate.m */,
+				1472E2471ABE6834008CD135 /* ViewController.h */,
+				1472E2481ABE6834008CD135 /* ViewController.m */,
+				1472E24A1ABE6834008CD135 /* Main.storyboard */,
+				1472E24D1ABE6834008CD135 /* Images.xcassets */,
+				1472E24F1ABE6834008CD135 /* LaunchScreen.xib */,
+				1472E2401ABE6834008CD135 /* Supporting Files */,
+			);
+			path = Mandolin;
+			sourceTree = "<group>";
+		};
+		1472E2401ABE6834008CD135 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1472E2411ABE6834008CD135 /* Info.plist */,
+				1472E2421ABE6834008CD135 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1472E2591ABE6834008CD135 /* MandolinTests */ = {
+			isa = PBXGroup;
+			children = (
+				1472E25C1ABE6834008CD135 /* MandolinTests.m */,
+				1472E25A1ABE6834008CD135 /* Supporting Files */,
+			);
+			path = MandolinTests;
+			sourceTree = "<group>";
+		};
+		1472E25A1ABE6834008CD135 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1472E25B1ABE6834008CD135 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1472E23C1ABE6834008CD135 /* Mandolin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1472E2601ABE6834008CD135 /* Build configuration list for PBXNativeTarget "Mandolin" */;
+			buildPhases = (
+				1472E2391ABE6834008CD135 /* Sources */,
+				1472E23A1ABE6834008CD135 /* Frameworks */,
+				1472E23B1ABE6834008CD135 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mandolin;
+			productName = Mandolin;
+			productReference = 1472E23D1ABE6834008CD135 /* Mandolin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1472E2551ABE6834008CD135 /* MandolinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1472E2631ABE6834008CD135 /* Build configuration list for PBXNativeTarget "MandolinTests" */;
+			buildPhases = (
+				1472E2521ABE6834008CD135 /* Sources */,
+				1472E2531ABE6834008CD135 /* Frameworks */,
+				1472E2541ABE6834008CD135 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1472E2581ABE6834008CD135 /* PBXTargetDependency */,
+			);
+			name = MandolinTests;
+			productName = MandolinTests;
+			productReference = 1472E2561ABE6834008CD135 /* MandolinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1472E2351ABE6833008CD135 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Sean Niesen";
+				TargetAttributes = {
+					1472E23C1ABE6834008CD135 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					1472E2551ABE6834008CD135 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 1472E23C1ABE6834008CD135;
+					};
+				};
+			};
+			buildConfigurationList = 1472E2381ABE6833008CD135 /* Build configuration list for PBXProject "Mandolin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1472E2341ABE6833008CD135;
+			productRefGroup = 1472E23E1ABE6834008CD135 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1472E23C1ABE6834008CD135 /* Mandolin */,
+				1472E2551ABE6834008CD135 /* MandolinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1472E23B1ABE6834008CD135 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1472E24C1ABE6834008CD135 /* Main.storyboard in Resources */,
+				1472E2511ABE6834008CD135 /* LaunchScreen.xib in Resources */,
+				1472E24E1ABE6834008CD135 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1472E2541ABE6834008CD135 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1472E2391ABE6834008CD135 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1472E2491ABE6834008CD135 /* ViewController.m in Sources */,
+				1472E2461ABE6834008CD135 /* AppDelegate.m in Sources */,
+				1472E2431ABE6834008CD135 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1472E2521ABE6834008CD135 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1472E25D1ABE6834008CD135 /* MandolinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1472E2581ABE6834008CD135 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1472E23C1ABE6834008CD135 /* Mandolin */;
+			targetProxy = 1472E2571ABE6834008CD135 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1472E24A1ABE6834008CD135 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1472E24B1ABE6834008CD135 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1472E24F1ABE6834008CD135 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1472E2501ABE6834008CD135 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1472E25E1ABE6834008CD135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1472E25F1ABE6834008CD135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1472E2611ABE6834008CD135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mandolin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1472E2621ABE6834008CD135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mandolin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1472E2641ABE6834008CD135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MandolinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mandolin.app/Mandolin";
+			};
+			name = Debug;
+		};
+		1472E2651ABE6834008CD135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MandolinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mandolin.app/Mandolin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1472E2381ABE6833008CD135 /* Build configuration list for PBXProject "Mandolin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1472E25E1ABE6834008CD135 /* Debug */,
+				1472E25F1ABE6834008CD135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1472E2601ABE6834008CD135 /* Build configuration list for PBXNativeTarget "Mandolin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1472E2611ABE6834008CD135 /* Debug */,
+				1472E2621ABE6834008CD135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1472E2631ABE6834008CD135 /* Build configuration list for PBXNativeTarget "MandolinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1472E2641ABE6834008CD135 /* Debug */,
+				1472E2651ABE6834008CD135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1472E2351ABE6833008CD135 /* Project object */;
+}
